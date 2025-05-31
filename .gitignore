@@ -1,0 +1,81 @@
+# Learn more: https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# ───── IDE Settings ─────
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# ───── Dependencies ─────
+node_modules/
+
+# ───── Expo ─────
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# ───── Android Native ─────
+android/app/build/
+android/.gradle/
+android/.idea/
+android/local.properties
+android/.cxx/
+android/captures/
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# ───── iOS Native ─────
+ios/build/
+ios/Pods/
+ios/DerivedData/
+
+# ───── Kotlin ─────
+.kotlin/
+
+# ───── Metro Cache ─────
+.cache/
+.metro-health-check*
+
+# ───── Debug Logs ─────
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# ───── macOS Junk ─────
+.DS_Store
+
+# ───── Miscellaneous ─────
+*.pem
+*.orig.*
+*.tsbuildinfo
+
+# ───── Environment Files ─────
+.env
+.env.*
+.env*.local
+
+# ───── Local Backend (if not to be pushed) ─────
+src/server/
+
+# ───── AdMob ─────
+src/config/admobConfig.ts
+
+# ───── Binary Outputs ─────
+*.apk
+*.aab
+
+# ───── Yarn 2+ (Berry) Zero-Install ─────
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+!.yarn/install-state.gz
